@@ -4,7 +4,7 @@
 	font-family: sans-serif;
 }
 .container{
-	height: 100vh;
+	height: 150vh;
 	width: 100%;
 	background-image: url(background.jpg);
 	background-size: cover;
@@ -36,7 +36,7 @@
 .content{
 	width: 100%;
 	position: absolute;
-	top: 30%;
+	top: 20%;
 }
 .left-col{
 	margin-left: 6%;
@@ -49,16 +49,24 @@
 }
 .right-col{
 	float: right;
-	margin-right: 6%;
-	margin-top: 60px;
+	margin-right: 6px;
 	display: flex;
 	align-items: center;
 }
 .right-col p{
-	font-size: 18px;
-	color: #5f5f5f;
+	font-size: 20px;
+	color: #800000;
 	font-weight: 400;
-	margin-right: 15px;
+	margin-right: 0px;
+	margin-top: -200%;
+
+}
+#focus{
+	font-size: 20px;
+	color: #800000;
+	font-weight: 400;
+	margin-right: -50px;
+	margin-top: -270%; 
 }
 #icon{
 	width: 18px;
@@ -69,7 +77,8 @@
 	height: 75%;
 }
 em{
-	margin-right: 1em;
+	color: green;
+	margin-right: -20em;
 }
 #birthday{
 	width: 50%;
